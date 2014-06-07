@@ -1,3 +1,8 @@
+<!-- **********************************
+example of PHP and MySQL knowledge used for getting highscores
+can be seen at http://bofrank.com/index140531.php
+**********************************/ -->
+
 <h2>DAILY HIGHSCORES</h2>
 <div class="highscores">
   <table>
