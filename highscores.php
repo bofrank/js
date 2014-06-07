@@ -4,7 +4,7 @@
 
     <?php
       $today = date("Ymd");
-      $result=mysql_query("SELECT * FROM highscoreroulette2 WHERE date = $today ORDER BY cash DESC") or die (mysql_error());
+      $result=mysql_query("SELECT * FROM infex WHERE date = $today ORDER BY cash DESC") or die (mysql_error());
       $number_cols=mysql_num_fields($result);
       $number_cols=mysql_num_fields($result);
       $i=1;		  
