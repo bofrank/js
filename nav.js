@@ -1,3 +1,8 @@
+/**********************************
+extending jQueryUI to inlcude 2 autocomplete fields using a JSON web service
+can be seen in the wild at www.mwedealers.com
+**********************************/
+
 function getMakes(){
     function Make() {
         this.Name = null;
