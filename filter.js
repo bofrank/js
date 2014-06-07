@@ -1,13 +1,21 @@
+/**********************************
+super simple filter for navigating masonry style portfolios
+can be seen at www.bofrank.com
+**********************************/
+
 function contentFilter(contentType){
 
-  if(contentType=="drawing"){
-    $(".game,.detritus").hide();
-    $(".drawing").show();
-  }else if(contentType=="game"){
-    $(".drawing,.detritus").hide();
-    $(".game").show();
-  }else{
-    $(".game,.drawing,.detritus").show();
+  switch(contentType){
+    case "drawing":
+      $(".game,.detritus").hide();
+      $(".drawing").show();
+      break;
+    case "game":
+      $(".drawing,.detritus").hide();
+      $(".game").show();
+      break;
+    default:
+      $(".game,.drawing,.detritus").show();
   }
   
 }
